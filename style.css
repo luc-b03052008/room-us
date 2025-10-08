@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+    background-color: darkblue;
+    height: 6rem;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 5rem;
+}
+
+
+header button{
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: lightblue;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header .about{
+    position: absolute;
+    top: 1rem;
+    right: 13rem;
+}
+
+header .contact{
+    position: absolute;
+    top: 1rem;
+}
